@@ -10,6 +10,7 @@ class LinkedList {
     // Your code here
     this.head = null;
     this.length = 0;
+    //this.tail = null;
 
 
   }
@@ -28,6 +29,7 @@ class LinkedList {
     const newNode = new LinkedListNode(val);
     if (!this.head) {
       this.head = newNode;
+      this.length++;
       return;
     }
     let current = this.head;
