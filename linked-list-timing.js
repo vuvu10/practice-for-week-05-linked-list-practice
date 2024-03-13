@@ -57,3 +57,7 @@ if (DoublyLinkedList) {
     }
 
 }
+
+
+// addToHead Time complexity is: O(n).
+// addToTail Time complexity is: O(n).
