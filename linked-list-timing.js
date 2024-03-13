@@ -61,3 +61,30 @@ if (DoublyLinkedList) {
 
 // addToHead Time complexity is: O(n).
 // addToTail Time complexity is: O(n).
+
+/**
+ * **Time Complexity Analysis**
+
+addToHead (Singly Linked List):
+ n = 100, Time: 0.350 ms
+ n = 1000, Time: 0.154 ms
+ n = 10000, Time: 2.770 ms
+ n = 100000, Time: 9.415 ms
+
+addToTail (Singly Linked List):
+ n = 100, Time: 0.260 ms
+ n = 1000, Time: 4.601 ms
+ n = 10000, Time: 204.519 ms
+ n = 100000, Time: 26319.772 ms
+
+addToHead(Doubly Linked List):
+ n = 100, Time: 21.185 ms
+ n = 1000, Time: 0.216 ms
+ n = 10000, Time: 1.567 ms
+
+addToTail (Doubly Linked List):
+ n = 100, Time: 0.233 ms
+ n = 1000, Time: 0.190 ms
+ n = 10000, Time: 20.281 ms
+ n = 100000, Time: 44.434 ms
+ */
